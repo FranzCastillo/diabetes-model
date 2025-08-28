@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="diabetes-model",
-    version="0.0.10",
+    name="CICDTest21562",
+    version="0.0.11",
     description="A pipeline for diabetes prediction using logistic regression.",
     author="Your Name",
     packages=find_packages(),
