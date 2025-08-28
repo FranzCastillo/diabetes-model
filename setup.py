@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="diabetes-model",
-    version="0.0.4",
+    version="0.0.5",
     description="A pipeline for diabetes prediction using logistic regression.",
     author="Your Name",
     packages=find_packages(),

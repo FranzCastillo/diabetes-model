@@ -81,7 +81,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install scikit-learn pandas joblib
+          pip install setuptools wheel scikit-learn pandas joblib
 
       - name: Build source and wheel distribution
         run: |
