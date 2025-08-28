@@ -17,4 +17,5 @@ def create_pipeline():
         StandardScaler(),
         LogisticRegression(max_iter=1000)
     )
+    print("Pipeline creado.")
     return pipe
